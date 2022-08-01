@@ -36,7 +36,7 @@ RFFQ
   }
 }
 
-#if 0
+#if 1
 TEST(TestCase3, Solution) {
   auto Solve = []() -> std::string {
     std::ifstream fs("./data1");
@@ -246,7 +246,6 @@ TEST(TestCase3, Solution) {
 3 3 S
 
 2 5 S
-
 )",
         Solve());
   }
