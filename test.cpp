@@ -10,8 +10,7 @@ TEST(TestCase1, Solution) {
   };
   {
     std::stringstream fake_cin;
-    fake_cin
-        << R"(
+    fake_cin << R"(
 1
 
 7 8
